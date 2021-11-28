@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow</title>
+  <style>
+    .mini-mini{
+      width: 150px;
+      border: 3px solid indianred;
+      overflow: hidden;
+    }
+    .short-text{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mega-box{
+      width: 500px;
+      height: 400px;
+      border: 5px solid indigo;
+      /* overflow: hidden; */
+      overflow: scroll;
+      overflow-x: hidden;
+      /* overflow-y: scroll; */
+    }
+    .mango-people{
+      width: 500px;
+      height: 400px;
+      border: 5px solid red;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS3 Overflow</h1>
+  <div class="mini-mini">
+    <p class="short-text" title="If you want to get my money, send me bKash first.">If you want to get my money, send me bKash first.</p>
+  </div>
+  <div class="mega-box">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cumque sed modi corrupti accusamus eos provident doloremque. Repudiandae quod eaque adipisci ut illo distinctio voluptatibus eveniet possimus odit velit error similique consectetur unde, est rem impedit magni iusto fugiat minima accusantium fugit temporibus sint cupiditate. Molestiae blanditiis odit, sapiente maiores reiciendis qui molestias facere nostrum deserunt quo quos asperiores maxime officia ipsam. Quisquam possimus vitae perspiciatis odio. Totam dolores exercitationem eligendi, quis suscipit, veritatis culpa error amet mollitia pariatur aliquid quo minima, nostrum praesentium laborum ducimus odit reprehenderit enim omnis esse quos debitis voluptatem eaque. Impedit magnam a cum inventore doloremque nostrum aperiam quia odit possimus. Est excepturi earum at eligendi veniam adipisci nesciunt consequuntur iusto assumenda animi facilis rem voluptate amet natus modi quae velit, totam nisi eum possimus corporis odio quia mollitia fuga. Dolore, cum aliquid. Enim numquam obcaecati beatae error veritatis molestias vero itaque tempore, at saepe mollitia similique culpa recusandae commodi, expedita, omnis dicta facilis nisi hic libero esse cumque corporis!.veniam adipisci nesciunt consequuntur iusto assumenda animi facilis rem voluptate amet natus modi quae velit, totam nisi eum possimus corporis odio quia mollitia fuga. Dolore, cum aliquid. Enim numquam obcaecati beatae error veritatis molestias vero itaque tempore, at saepe mollitia similique culpa recusandae commodi, expedita, omnis dicta facilis nisi hic libero esse cumque corporis!.</p>
+  </div>
+  <div class="mango-people">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam illo ab dignissimos repellat maiores excepturi totam facere nulla ipsam deleniti, ratione id! Animi, consequuntur odio iste, sed ipsum minima temporibus deleniti molestiae reiciendis cupiditate voluptatem perferendis nulla sint praesentium excepturi totam quibusdam facere? Iure ullam, earum amet eum repellendus possimus dicta dolor? Perferendis, delectus sint at ratione blanditiis vitae sunt id recusandae beatae? Consectetur nemo voluptas, eum nulla dicta sapiente animi exercitationem fuga beatae. Totam accusantium illum inventore eum doloribus quisquam obcaecati deleniti vero in quo quaerat iusto, natus a, et quae repudiandae nam minima quos! Impedit, molestias esse!</p>
+  </div>
+</body>
+</html>
